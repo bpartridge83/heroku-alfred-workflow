@@ -28,8 +28,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
-		<array/>
 		<key>420F72C2-E734-466C-89AD-16457BE6DA12</key>
 		<array>
 			<dict>
@@ -85,35 +83,6 @@
 	<string>Heroku</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>keyword</key>
-				<string>heroku test</string>
-				<key>runningsubtext</key>
-				<string>working...</string>
-				<key>script</key>
-				<string>/usr/bin/ruby ./main.rb</string>
-				<key>subtext</key>
-				<string>subtext here</string>
-				<key>title</key>
-				<string>Heroku test</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>21557827-8003-42B7-A042-16D4C9278FEC</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -369,11 +338,6 @@
 		<dict>
 			<key>ypos</key>
 			<real>930</real>
-		</dict>
-		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
-		<dict>
-			<key>ypos</key>
-			<real>250</real>
 		</dict>
 		<key>41EEF7EC-DC81-4B1E-98A0-B61BE72988A0</key>
 		<dict>
