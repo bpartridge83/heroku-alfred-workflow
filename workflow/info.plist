@@ -52,22 +52,22 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>AF578D03-28D7-4DC8-93C6-85D7279129F1</key>
+		<key>D390E2BA-F288-4C63-9DED-698CD94D5F30</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>599D54D8-F4D0-437F-96CF-96FDE7AD4B84</string>
+				<string>05E1A6B5-ECCB-425F-86FF-2037C3D67945</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
 		</array>
-		<key>D390E2BA-F288-4C63-9DED-698CD94D5F30</key>
+		<key>F16FE191-672A-4EE9-9EC3-5714CD66756F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>05E1A6B5-ECCB-425F-86FF-2037C3D67945</string>
+				<string>599D54D8-F4D0-437F-96CF-96FDE7AD4B84</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -157,19 +157,27 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>heroku status</string>
+				<key>runningsubtext</key>
+				<string>retrieving status from api...</string>
+				<key>script</key>
+				<string>/usr/bin/ruby ./status.rb</string>
 				<key>subtext</key>
-				<string>Display the Heroku Status Page</string>
-				<key>text</key>
+				<string>Current Heroku status</string>
+				<key>title</key>
 				<string>Heroku Status</string>
+				<key>type</key>
+				<integer>0</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>AF578D03-28D7-4DC8-93C6-85D7279129F1</string>
+			<string>F16FE191-672A-4EE9-9EC3-5714CD66756F</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -397,11 +405,6 @@
 			<key>ypos</key>
 			<real>810</real>
 		</dict>
-		<key>AF578D03-28D7-4DC8-93C6-85D7279129F1</key>
-		<dict>
-			<key>ypos</key>
-			<real>480</real>
-		</dict>
 		<key>C9A35FE3-88EC-487C-B03E-F42C8B889D10</key>
 		<dict>
 			<key>ypos</key>
@@ -411,6 +414,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>590</real>
+		</dict>
+		<key>F16FE191-672A-4EE9-9EC3-5714CD66756F</key>
+		<dict>
+			<key>ypos</key>
+			<real>480</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
